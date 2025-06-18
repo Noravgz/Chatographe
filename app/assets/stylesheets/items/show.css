@@ -3,12 +3,11 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 40px 0;
+    margin: 33px 0;
     background-color: #ECF0F1;
   }
 /* Conteneur pour l'image et le titre (gauche) */
@@ -21,11 +20,11 @@
     justify-content: center;
     border: 2px solid #555;
     border-radius: 16px; /* Coins légèrement arrondis */
-    box-shadow: 20px 4px 18px rgba(0, 0, 0, 0.1); /* Ombre pour l'effet de card */
-    margin-right: 20px; /* Espacement entre l'image et la description */
-    margin-top: 40px;
+    box-shadow: 20px 4px 18px rgba(255, 165, 0, 0.5);
+    margin-right: 80px; /* Espacement entre l'image et la description */
+    margin-top: 10px;
     overflow: hidden; /* Pour s'assurer que l'image ne dépasse pas du conteneur */
-
+    margin-left: 90px;
 }
   /* Titre du produit (au-dessus de l'image) */
 .product-title {

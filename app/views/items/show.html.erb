@@ -5,14 +5,13 @@
 </div>
 
 <div class="product-details">
-<h1 class="product-title"><%= @item.title %></h1>
-  <!-- Section gauche : image  -->
   <div class="product-left">
     <img src="<%= @item.image_url %>" alt="<%= @item.title %>" class="product-image img-fluid mb-3">
   </div>
 
   <!-- Section droite : description et boutons -->
   <div class="product-right">
+  <h1 class="product-title"><%= @item.title %></h1>
     <p class="product-description"><%= @item.description %></p>
     <p class="product-price"><%= number_to_currency(@item.price) %></p>
 

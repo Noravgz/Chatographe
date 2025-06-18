@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
+ 
+ *{
+    font-family: 'Poppins';
+ }
 .content{
     flex: 1;
 }
@@ -85,7 +89,7 @@
 
 }
 .footer a:hover{
-    color: orange;
+    color: rgb(255, 165, 0);
 }
 .footer-column h3{
     color: orange;
