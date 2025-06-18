@@ -22,7 +22,7 @@ gem "jbuilder"
 gem "stripe"
 gem 'dotenv'
 gem "table_print"
-gem 'stringio', '3.0.6'
+gem 'stringio', '3.1.7'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
